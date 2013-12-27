@@ -1,0 +1,298 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 13.12.2012 14:53:36
+
+newmtl 15___Default3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\Dung_house_01.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Dung_house_01.png
+
+newmtl 04___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\Dung_Cay.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Dung_Cay.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\Dung_Cay.png
+
+newmtl 19___Defauladads
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_House2_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House2_Diff.png
+
+newmtl 14___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_Gate_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Gate_Diff.png
+
+newmtl 20___Defaufsddfdflt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_House_03_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House_03_Diff.png
+
+newmtl 21___Defaultdf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\Market_01_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Market_01_Diff.png
+
+newmtl 22___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_Market_03_Diff .png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Market_03_Diff .png
+
+newmtl 15___Ddfgefault
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\Market_02_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Market_02_Diff.png
+
+newmtl 09___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House_04_Diff.png
+
+newmtl 13___Defaultdsf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_House_01_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House_01_Diff.png
+
+newmtl 06___Defagggult
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_House_05_Diff .png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House_05_Diff .png
+
+newmtl 19___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_House_06_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_House_06_Diff.png
+
+newmtl 08___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Windmill_Diff.png
+
+newmtl 02___Defaultfgd
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_02_Diff .png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_02_Diff .png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_01_Diff.png
+
+newmtl 01___Defaultg
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_01_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_01_Diff.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\T_Farmland_01_Diff.png
+
+newmtl 03___Deasd
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_Circus_Diff .png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_Circus_Diff .png
+
+newmtl fg
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2745 0.5804 0.2980
+	Kd 0.2745 0.5804 0.2980
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\T_BG_04_Diff.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\T_BG_04_Diff.png
+
+newmtl 20___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1686 0.1216 0.0000
+	Kd 0.1686 0.1216 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\La_01_Opa.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\La_01_Opa.png
+
+newmtl 15___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\La_02_Opa.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\La_02_Opa.png
+
+newmtl default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Tuhn\Desktop\Map1_Spring\Tree02_Opa.png
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Tree02_Opa.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\Tree02_Opa.png
+
+newmtl 13___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Kd C:\Users\Tuhn\Desktop\Map1_Spring\Tree04_Opa.png
+	map_d C:\Users\Tuhn\Desktop\Map1_Spring\Tree04_Opa.png

@@ -1,0 +1,76 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 05.08.2013 11:45:10
+
+newmtl 14___Defaultss
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Rock02_Diff .png
+	map_Kd E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Rock02_Diff .png
+
+newmtl 07___Defaultdd
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree02_Opa.png
+	map_Kd E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree02_Opa.png
+	map_d E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree02_Opa.png
+
+newmtl 19___Defaultss
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Lily_DF.png
+	map_Kd E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Lily_DF.png
+	map_d E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Lily_DF.png
+
+newmtl 13___Defaultss
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree01_Diff.png
+	map_Kd E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree01_Diff.png
+	map_d E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Tree01_Diff.png
+
+newmtl 20___Defaultss
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Pond_DF.png
+	map_Kd E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Pond_DF.png
+	map_d E:\TU_WORKING\Thang 8\Farm_Halloween\Map\Spring\Pond_DF.png
