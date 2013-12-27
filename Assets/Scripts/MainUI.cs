@@ -2,61 +2,63 @@
 using System.Collections;
 
 public class MainUI : MonoBehaviour {
+	
+	public Texture btn = null;
+	public Texture building = null;
+	public Texture close = null;
+	public bool bShowPanel = false;
+	public Vector3 scrollViewPos =  Vector2.zero;
+	public static MainUI Instance = null;
+	public Transform[] buildings;
+	public Transform testbuilding;
 
-	public Texture texture = null;
-	public Vector2 scrollPosition = Vector2.zero;
-	public bool bShowPanel = true;
-	public Rect panel = new Rect(20,20,Screen.width, Screen.height);
+	void Awake()
+	{
+		Instance = this;
+	}
 	void OnGUI() {
 		if(bShowPanel)
-			panel = GUI.Window(0, panel, DrawPanel, "");
+			DrawBuildPanel();
 		else
-		{
-			if(GUI.Button(new Rect(20, 400, 100, 100), texture))
-				bShowPanel = true;
-			GUI.DrawTexture(new Rect(10, 10, 100, 100), texture, ScaleMode.ScaleToFit, true, 0);
-			Rect pos = new Rect(10, 120, 100, 20);
-			GUI.Label(pos, "User Name Here!");
-			GUI.Label(new Rect(pos.x+100, 10, 100, 20), "Level 11");
-		}
+			DrawMain();
+	}
+	
+	void DrawMain(){
+		if(GUI.Button(new Rect(20, Screen.height-20-100, 100, 100), btn))
+			bShowPanel = true;
+		GUI.DrawTexture(new Rect(10, 10, 100, 100), btn, ScaleMode.ScaleToFit, true, 0);
+		Rect pos = new Rect(10, 120, 100, 20);
+		GUI.Label(pos, "User Name Here!");
+		GUI.Label(new Rect(pos.x+100, 10, 100, 20), "Level 11");
 
-		if(loading)
-		{ 
-			GUI.Label(new Rect(100,30,200,30),"", progressbar_bj);
-			GUI.Label(new Rect(100,30,progress*200,30),"", progressbar_qj);
-			GUI.Label (new Rect (150,35, 200, 30),"Loading:    "+(progress*100).ToString()+"%");
+		if(GameCamera.Inst.selectGameObj){
+			if(GUI.Button(new Rect(Screen.width/2,Screen.height -160,100,40), close))
+				GameCamera.Inst.selectGameObj = null;
 		}
+	}
+	void DrawBuildPanel(){
+		Rect panel = new Rect(20,20,Screen.width-40, Screen.height-40);
+		panel = GUI.Window(0, panel, DrawPanel, "");
 	}
 	void DrawPanel(int windowID) {
-
-		scrollPosition = GUI.BeginScrollView(new Rect(10, 100, panel.width -20, 220), scrollPosition, new Rect(0, 0, 10*120,200));
-		for(int i = 0;i<10;i++)
+		if(GUI.Button(new Rect(Screen.width -160,10,100,40), close))
+			bShowPanel = false;
+		
+		scrollViewPos = GUI.BeginScrollView(new Rect(30, 30, Screen.width -100, Screen.height-100) ,scrollViewPos, new Rect(30, 30, buildings.Length*120,200));
+		for(int i = 0;i<buildings.Length;i++)
 		{
-			if(GUI.Button(new Rect(0+i*120, 0, 100, 100), texture)){
+			Rect pos = new Rect(30+i*120, 60, 100, 200);
+			//GUI.Box(pos, "This is a title");
+			if(GUI.Button(pos, "")){
 				bShowPanel = false;
-				progress = 0.0f;
+				Instantiate(buildings[i],CameraPoint.Instance.transform.position, Quaternion.identity);
 			}
+			pos = new Rect(30+i*120, 60, 100, 100);
+			GUI.DrawTexture(pos,building);
+			pos.y+=160;
+			GUI.Label(pos, "Building Name Here!");
 		}
 		GUI.EndScrollView();
-
-		if(GUI.Button(new Rect(500, 350, 100, 40), "Build"))
-			bShowPanel = false;
 	}
-
-	public GUIStyle progressbar_bj;   //背景图
-	public GUIStyle progressbar_qj;   //前景图
-	float progress = 0;
-	bool loading = true;
 	
-	public Texture img;
-	public float Length=0;
-
-	void Update () 
-	{
-		progress+= Time.deltaTime/10;
-		if(progress>1.0f){
-			progress = 1.0f;
-		}
-	}
-
 }

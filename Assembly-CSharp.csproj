@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{92DB7807-064D-7C40-8B69-1C02A2D143DE}</ProjectGuid>
+	<ProjectGuid>{36698452-CFA9-A797-EE80-6A46D6C68343}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MainUI.cs" />
+     <Compile Include="Assets\Scripts\CameraPoint.cs" />
+     <Compile Include="Assets\Scripts\GameCamera.cs" />
+     <Compile Include="Assets\Scripts\GridMap.cs" />
+     <Compile Include="Assets\Scripts\MainUI.cs" />
+     <None Include="Assets\Models\Spring-Scene\Alpha_shader\Alpha_Texture.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
