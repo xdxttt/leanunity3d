@@ -49,7 +49,9 @@
      <Compile Include="Assets\Scripts\CameraPoint.cs" />
      <Compile Include="Assets\Scripts\GameCamera.cs" />
      <Compile Include="Assets\Scripts\GridMap.cs" />
-     <Compile Include="Assets\Scripts\MainUI.cs" />
+     <Compile Include="Assets\Scripts\UI\Build.cs" />
+     <Compile Include="Assets\Scripts\UI\MainUI.cs" />
+     <Compile Include="Assets\Scripts\UI\Quest.cs" />
      <None Include="Assets\Models\Spring-Scene\Alpha_shader\Alpha_Texture.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

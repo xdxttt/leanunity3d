@@ -16,14 +16,13 @@ public class GameCamera : MonoBehaviour {
 		Inst = this;
 	}
 
-
 	// Use this for initialization
 	void Start () {
 		m_cameraPoint = CameraPoint.Instance.transform;
 		Follow();
 	}
 	void Update () {
-		if(!MainUI.Instance.bShowPanel){
+		if(!Build.Instance.bShow){
 			bool press = Input.GetMouseButton(0);
 			float mx = Input.GetAxis("Mouse X");
 			float my = Input.GetAxis("Mouse Y");
@@ -35,13 +34,10 @@ public class GameCamera : MonoBehaviour {
 				RaycastHit hit = new RaycastHit();
 				if (Physics.Raycast(ray,out hit))
 				{
-					Debug.Log("Raycast "+hit.collider.gameObject.name);
 					selectGameObj = hit.collider.gameObject;
 				}
 			}
 		}
-			
-
 	}
 	void LateUpdate () {
 		Follow();
