@@ -3,24 +3,27 @@ using System.Collections;
 
 public class GameCamera : MonoBehaviour {
 
+
+	
+	float ZoomSpeed = 30.0f;//镜头缩放速率
+	float MovingSpeed = 1.0f;//镜头移动速率
+	float RotateSpeed = 1.0f;  //镜头旋转速率
+	private var distance = 0.0f;//保存镜头和中心点的直线距离
+
 	public static GameCamera Inst = null;
-	protected float m_distance = 10;
-	protected Vector3 m_rot = new Vector3(-55,180,0);
-	protected float m_moveSpeed = 30;
-	protected float m_vx = 0;
-	protected float m_vy = 0;
-	protected Transform m_cameraPoint;
 	public GameObject selectGameObj = null;
 	void Awake()
 	{
 		Inst = this;
 	}
 
-	// Use this for initialization
 	void Start () {
-		m_cameraPoint = CameraPoint.Instance.transform;
-		Follow();
+		distance = Mathf.Abs(transform.position.y/Mathf.Sin(transform.eulerAngles.x));
 	}
+
+
+
+
 	void Update () {
 		if(!Build.Instance.bShow){
 			bool press = Input.GetMouseButton(0);
@@ -40,7 +43,7 @@ public class GameCamera : MonoBehaviour {
 		}
 	}
 	void LateUpdate () {
-		Follow();
+		//Follow();
 	}
 
 	void Follow(){
@@ -48,7 +51,6 @@ public class GameCamera : MonoBehaviour {
 		this.transform.eulerAngles = m_rot;
 		this.transform.Translate(0,0,m_distance);
 		this.transform.LookAt(m_cameraPoint);
-
 	}
 
 	public void Control(bool mouse,float mx,float my)
@@ -58,7 +60,7 @@ public class GameCamera : MonoBehaviour {
 		if(selectGameObj)
 			selectGameObj.transform.Translate(mx*m_moveSpeed*Time.deltaTime,0,my*m_moveSpeed*Time.deltaTime);
 		else
-			m_cameraPoint.Translate(-mx*m_moveSpeed*Time.deltaTime,0,-my*m_moveSpeed*Time.deltaTime);
+			this.transform.Translate(-mx*m_moveSpeed*Time.deltaTime,0, -my*m_moveSpeed*Time.deltaTime);
 	}
 
 

@@ -32,7 +32,6 @@ public class MainUI : MonoBehaviour {
 			if(GUI.Button(new Rect(260,20,100,40), "close"))
 				GameCamera.Inst.selectGameObj = null;
 			GUI.EndGroup();
-
 		}else{
 			bShowNavBar =true;
 		}
