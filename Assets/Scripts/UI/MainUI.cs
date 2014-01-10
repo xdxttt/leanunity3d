@@ -22,19 +22,6 @@ public class MainUI : MonoBehaviour {
 		GUI.Box(new Rect(Screen.width -120, 35, 100, 30),new GUIContent(""));
 		GUI.Label(new Rect(Screen.width -120, 40, 100, 20), "100/1000");
 
-		if(GameCamera.Inst.selectGameObj){
-			bShowNavBar =false;
-			GUI.BeginGroup(new Rect(Screen.width / 2 -200, Screen.height - 100, 400, 100));
-			if(GUI.Button(new Rect(20,20,100,40), "upgrade"))
-				GameCamera.Inst.selectGameObj = null;
-			if(GUI.Button(new Rect(140,20,100,40), "move"))
-				GameCamera.Inst.selectGameObj = null;
-			if(GUI.Button(new Rect(260,20,100,40), "close"))
-				GameCamera.Inst.selectGameObj = null;
-			GUI.EndGroup();
-		}else{
-			bShowNavBar =true;
-		}
 	}
 
 	void DrawNavBar(){
