@@ -34,11 +34,17 @@ public class Build : MonoBehaviour {
 			if(GUI.Button(pos, "")){
 				bShow = false;
 				MainUI.Instance.bShowNavBar = true;
-
-				Instantiate(buildings[i],CameraPoint.Instance.transform.position, Quaternion.identity);
+				Debug.Log("Input.mousePosition x"+Input.mousePosition.x+" y"+Input.mousePosition.y+" z"+Input.mousePosition.z);
+				Ray ray = Camera.main.ScreenPointToRay (new Vector3(Screen.width/2,Screen.height/3,0));
+				RaycastHit hit = new RaycastHit();
+				if (Physics.Raycast(ray,out hit))
+				{
+					Instantiate(buildings[i],hit.point+new Vector3(0,0.8f,0), Quaternion.identity);
+				}
 			}
 			pos = new Rect(30+i*120,60, 100, 100);
 			if(GUI.Button(pos, "")){
+				
 
 			}
 			pos.y+=160;

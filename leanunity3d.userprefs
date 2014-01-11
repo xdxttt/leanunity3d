@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\Quest.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Building.cs">
     <Files>
-      <File FileName="Assets\Scripts\UI\MainUI.cs" Line="51" Column="1" />
-      <File FileName="Assets\Scripts\UI\Quest.cs" Line="14" Column="3" />
-      <File FileName="Assets\Scripts\UI\Build.cs" Line="15" Column="13" />
-      <File FileName="Assets\Scripts\GameCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraPoint.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Building.cs" Line="111" Column="20" />
+      <File FileName="Assets\Scripts\UI\MainUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\Quest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\Build.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GridMap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraCtrl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
